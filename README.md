@@ -10,3 +10,12 @@ This typically happens by defining a (parent) interface to be reused. It outline
 
 Any time a collection (such as a list) or a method expects an instance of the parent (where common methods are outlined), the language takes care of evaluating the right implementation of 
 the common method — regardless of which child is passed.
+
+
+Bubble Sort Assignment.
+
+iteration 1: [5,3,1,4,2,6] [3,5,1,4,2,6] [3,1,5,4,2,6] [3,1,4,5,2,6] [3,1,4,2,5,6] [3,1,4,2,5,6]
+ 
+iteration2: [3,1,4,2,5,6] [1,3,4,2,5,6] [1,3,4,2,5,6] [1,3,2,4,5,6] [1,3,2,4,5,6] [1,3,2,4,5,6]
+
+iteration3: [1,3,2,4,5,6] [1,2,3,4,5,6]
